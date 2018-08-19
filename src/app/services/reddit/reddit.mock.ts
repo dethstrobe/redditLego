@@ -19,7 +19,26 @@ export const redditResponse: RedditResponse = {
                 }
               }
             ]
-          }
+          },
+          title: 'a title'
+        }
+      },
+      {
+        kind: 'something else',
+        data: {
+          preview: {
+            images: [
+              {
+                id: '1234rewq',
+                source: {
+                  height: 1800,
+                  url: 'http://someotheraddress.com',
+                  width: 1200
+                }
+              }
+            ]
+          },
+          title: 'b title'
         }
       }
     ],

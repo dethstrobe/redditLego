@@ -1,4 +1,4 @@
-class RedditPostData {
+export class RedditPostData {
   kind: string;
   data: {
     preview: {
@@ -12,7 +12,8 @@ class RedditPostData {
           }
         }
       ]
-    }
+    },
+    title: string,
   };
 }
 
